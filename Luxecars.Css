@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .menu {
+    flex-direction: column;
+  }
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+body {
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+html {
+    scroll-behavior: smooth;
+    /*défillement lisse sur la page */
+}
+
+.Header {
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: antiquewhite;
+    box-shadow: 10px 5px 10px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+
+
+}
+
+.Listes li {
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+    justify-content: space-between;
+    
+    
+    
+    
+
+}
+
+
+.Listes a {
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+.Listes a:hover {
+    color: red;
+    scroll-behavior: smooth;
+
+}
+
+.lorem {
+    color: grey;
+}
+
+.Logo {
+    font-size: 25px;
+    align-items: center;
+    cursor:pointer;
+}
+
+.Logo b {
+    color: red;
+}
+
+.paragraphe {
+    text-align: center;
+}
+
+.button {
+    color: white;
+    background-color: red;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+.button0 {
+    color: white;
+    background-color: red;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+
+
+.mainn {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.mainn b {
+    color: red;
+
+}
+
+.button1 {
+    background-color: red;
+    width: 120px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.mainn img {
+    width: 600px;
+}
+
+.allpic {
+    display: flex;
+    margin-top: 10%;
+    position: relative;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    /*Pour Afficher les élements sur une
+    seul ligne ou colonne en fonction de la page */
+
+}
+
+.page2 {
+    flex: 0 0 30%;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgb(253, 236, 220);
+    transition: 0.5s;
+    padding: 10px;
+
+}
+
+h2 {
+    justify-self: center;
+    text-decoration: overline underline red;
+    font-size: 25px;
+}
+
+.page2 img {
+    width: 300px;
+    height: 150px;
+
+}
+
+
+.page2:hover {
+    transform: scale(1.05);
+
+}
+
+.page3 {
+    border-radius: 20px;
+    margin-top: 10%;
+    width: 400px;
+    justify-self: center;
+    background: linear-gradient(to left, transparent 5% , rgb(117, 28, 28) 80%);
+    
+
+    
+}
+
+.pageconnex{
+    background-image: url(ferrari\ IMG_7291-scaled.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+    
+}
+.page3 h4{
+    font-size: 20px;
+    font-weight:500;
+}
+
+.head {
+    background-color: red;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    height: 70px;
+    border-radius: 20px 20px 0 0;
+    line-height: 0;
+}
+
+.labels {
+    text-align: center;
+    border: 2px solid black;
+    border-radius:0 0 20px 20px;
+}
+
+.label1 {
+    width: 70%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button2 {
+    width: 80%;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10PX;
+    cursor: pointer;
+
+}
+
+.inscription{
+    text-align: center;
+}
+
+.inscription a {
+    color: red;
+    text-decoration: none;
+}
+
+.inscription a:hover{
+ text-decoration:underline;
+}
+h3{
+    text-align: center;
+    text-decoration: overline underline red;
+    font-size: 25px;
+}
+footer{
+    
+    text-align: center;
+    background:linear-gradient(to right, transparent, rgb(117, 28, 28)) ;
+}
